@@ -3,7 +3,7 @@ const date: Date = new Date()
 const newDate = date.getMinutes()
 console.log(newDate)
 
-class MyDate {
+export class MyDate {
     year: number
     month: number
     day: number
