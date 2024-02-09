@@ -1,10 +1,10 @@
-import axios from "axios";
-import { UpdateProductDto, CreateProductDto } from "../dtos/product.dto";
-import { ProductService } from "../models/product-service.model";
-import { Products } from "../models/products.model";
+import axios from "axios"
+import { UpdateProductDto, CreateProductDto } from "../dtos/product.dto"
+import { ProductService } from "../models/product-service.model"
+import { Products } from "../models/products.model"
 
 export class ProductHttpService implements ProductService {
-    private url: string = 'https://api.escualejs.co/api/v1/products'
+    private url: string = 'https://api.escuelajs.co/api/v1/products'
 
     async getAll() {
         const { data } = await axios.get<Products[]>(this.url)
