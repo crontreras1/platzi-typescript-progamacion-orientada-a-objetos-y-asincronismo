@@ -21,6 +21,7 @@
   },
   "dependencies": {
     "@faker-js/faker": "^8.4.0",
-    "axios": "^1.6.7"
+    "axios": "^1.6.7",
+    "class-validator": "^0.14.1"
   }
 }
